@@ -127,3 +127,8 @@ def game_hash
 end
 
 # Write code here
+
+def team_colors(team_name)
+  team = find_team(team_name)
+  team[:color]
+end
